@@ -1,0 +1,65 @@
+/* MEDIA QUERY  */
+
+/* STYLES FOR WIDTH MORE THAN 540PX  (DESKTOP)*/
+
+@media (min-width: 540px) {
+    .footseperate {
+      flex-direction: row;
+    }
+    .langs {
+      display: flex;
+      gap: 10px;
+      flex-direction: row;
+      font-size: 14px;
+    }
+    .langs p {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      
+      
+    }
+    .langs p div{
+        font-size: 1px;
+      }
+      
+    
+    .language {
+      display: flex;
+      gap: 10px;
+    }
+    .language a{
+        font-size: 13px;
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+  
+      background-color: #0d0d0d;
+    }
+    footer div p {
+      font-size: 14px;
+      padding: 15px 27px;
+      border-bottom: 1px solid #555555;
+    }
+    .footanchor {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      padding: 15px 31px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+      padding: 0px 14px;
+  
+       margin-bottom: 160px;
+    }
+  }
+  

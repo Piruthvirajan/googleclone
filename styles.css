@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+ 
+body {
+  background: #1e1e1e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 14px;
+}
+
+/* HEADER SECTION */
+  
+header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 13px;
+  padding: 14px;
+}
+.headnav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.headnav a {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.headnav a img {
+  max-width: 37px;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.headnav a i {
+  padding: 10px 8px;
+  border-radius: 20px;
+}
+
+
+/* MAIN SECTION */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 0px 14px;  
+}
+
+.logo {
+  font-size: 75px;
+  font-style: sanserif;
+}
+
+.baralone {
+  background: none;
+  color: white;
+  border-style: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+}
+
+.searchbar {
+  display: flex;
+  width: 100%;
+  max-width: 550px;
+  background: none;
+  margin: 0 auto;
+  border-color: gray;
+  border: 0.1px solid;
+  border-radius: 20px;
+  padding: 12px;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 17px;
+}
+
+.buttons button {
+  padding: 0px 4px;
+  background: transparent;
+  color: white;
+  border-style: none;
+  font-size: 16px;
+}
+.barunder button {
+  padding: 9px 15px;
+  background: none;
+  color: white;
+  background-color: #272727;
+  border: 0.1px solid;
+  border-radius: 5px;
+  font-size: 14px;
+  border-color: transparent;
+}
+.barunder {
+  display: flex;
+  gap: 9px;
+  font-size: 14px;
+}
+.langs {
+  display: flex;
+  font-size: 14px;
+  flex-direction: column;
+  gap: 20px;
+}
+.language a{
+  text-decoration: none;  
+  color: lightblue;
+  font-size: 14px;
+}
+
+.langs p {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.language {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.googleoffer{
+  font-size: 13px;
+}
+/* FOOTER SECTION  */
+
+.footanchor a {
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #0d0d0d;
+}
+footer div p {
+  font-size: 14px;
+  padding: 15px 27px;
+  border-bottom: 1px solid #555555;
+}
+.footanchor {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 15px 31px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footseperate {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+.footseperate a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+

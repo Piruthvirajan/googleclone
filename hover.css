@@ -1,0 +1,46 @@
+/* HOVER STYLES FOR HEADER,MAIN & FOOTER */
+
+/* HEADER HOVER */
+
+.headnav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.headnav a:hover img {
+    background-color: #333333;
+}
+
+.headnav a:hover i {
+    background-color: #333333;
+}
+
+
+/* MAIN HOVER */
+
+.searchbar:hover {
+    border-color: transparent;
+    background-color: #333333;
+}
+
+.barunder button:hover {
+    border-color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}
+
+.language a:hover{
+    text-decoration: underline;
+}
+/* FOOTER HOVER */
+
+.footseperate a:hover{
+    text-decoration: underline;
+}
+  
+  
+  
+
+
